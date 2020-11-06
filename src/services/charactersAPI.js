@@ -1,5 +1,5 @@
 import axios from 'axios';
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 
 class CharactersService {
   constructor({ url = 'http://localhost:3000', timeout = 30000 }) {
